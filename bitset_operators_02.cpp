@@ -6,13 +6,13 @@ int main()
 	using namespace std;
 
 	unsigned long x, y;
-	cout << "iki tamsayi girin: ";
+	cout << "enter tgwo integers : ";
 	cin >> x >> y;
 	bitset<32> bx{ x }, by{ y };
 
-	cout << "         " << bx << "\n";
-	cout << "         " << by << "\n";
-	cout << "ve     = " << (bx & by) << "\n";
-	cout << "veya   = " << (bx | by) << "\n";
-	cout << "exor   = " << (bx ^ by) << "\n";
+	cout << "         " << bx << '\n';
+	cout << "         " << by << '\n';
+	cout << "ve     = " << (bx & by) << '\n';
+	cout << "veya   = " << (bx | by) << '\n';
+	cout << "exor   = " << (bx ^ by) << '\n';
 }
