@@ -10,7 +10,7 @@ int main()
 	bitset<32> bs1{ str };
 	cout << bs1 << '\n';
 	bitset<32> bs2{ str, 8 };
-	cout << bs1 << '\n';
+	cout << bs2 << '\n';
 	bitset<32> bs3{ str, 8, 3 };
 	cout << bs3 << '\n';
 }
