@@ -6,25 +6,14 @@ int main()
 	using namespace std;
 
 	unsigned long uval;
-	cout << "bir sayi girin: ";
+	cout << "enter an integer: ";
 	cin >> uval;
 
 	bitset<16> bs(uval);
+	std::cout << bs << '\n';
 
-	if (bs.any())
-		std::cout << "dogru\n";
-	else
-		std::cout << "yanlis\n";
-		
-
-	if (bs[5])
-		std::cout << "dogru\n";
-	else
-		std::cout << "yanlis\n";
-
-	
-	if (bs.test(5))
-		std::cout << "dogru\n";
-	else
-		std::cout << "yanlis\n";
+	boolalpha(std::cout);
+	std::cout << "bs.any()    = " << bs.any() << '\n';
+	std::cout << "bs[5]       = " << bs[5] << '\n';
+	std::cout << "bs.test(5)  = " << bs.test(5) << '\n';
 }
