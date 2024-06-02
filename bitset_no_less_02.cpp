@@ -1,4 +1,4 @@
-//bitset sınıfının == ve != fonksiyonları var ancak diğer karşılaştırma fonksiyonları yok
+//std::bitset class has no relational operators
 
 #include <bitset>
 #include <set>
@@ -19,5 +19,5 @@ int main()
 	}
 
 	for (auto bs : myset)
-		cout << bs << "\n";
+		cout << bs << '\n';
 }
