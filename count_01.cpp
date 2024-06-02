@@ -7,7 +7,7 @@ int main()
 {
 	using namespace std;
 	unsigned long uval;
-	cout << "bir tamsayi girin: ";
+	cout << "enter an integer: ";
 	cin >> uval;
 	bitset<32> bs = uval;
 	cout << bs << '\n';
