@@ -5,11 +5,11 @@ int main()
 {
 	using namespace std;
 
-	bitset<8> bs{255};
-	cout << bs << "\n";
+	bitset<8> bs{ 255 };
+	cout << bs << '\n';
 	bs.reset();
-	cout << bs << "\n";
+	cout << bs << '\n';
 	bs = 255;
 	bs.reset(5);
-	cout << bs << "\n";
+	cout << bs << '\n';
 }
