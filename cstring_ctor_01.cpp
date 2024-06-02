@@ -5,5 +5,5 @@ int main()
 {
 	std::bitset<32>bs{ "101010101" };
 
-	std::cout << bs << "\n";
+	std::cout << bs << '\n';
 }
