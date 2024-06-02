@@ -1,4 +1,4 @@
-//bitset sınıfının == ve != fonksiyonları var ancak diğer karşılaştırma fonksiyonları yok
+//std::bitset class has  == and != functions but no relationl operators
 
 #include <bitset>
 #include <iostream>
@@ -9,7 +9,7 @@ int main()
 
 	unsigned long x, y;
 
-	cout << "iki tamsayi girin: ";
+	cout << "enter two integers: ";
 	cin >> x >> y;
 	bitset<16> bx{ x }, by{ y };
 
@@ -19,5 +19,5 @@ int main()
 	cout << (bx == by) << '\n';
 	cout << (bx != by) << '\n';
 
-	//bs < by; //yok boyle bir operator
+	//bs < by; //error
 }
