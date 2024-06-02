@@ -1,16 +1,14 @@
-//bir tam sayıyı 2'lik sayı sisteminde yazdırmanın pratik yolu
-
 #include <bitset>
 #include <iostream>
 
 int main()
 {
 	using namespace std;
-	
+
 	unsigned long long uval;
 
-	cout << "tamsayi degerini girin: ";
+	cout << "enter an integer : ";
 	cin >> uval;
 
-	cout << bitset<64>{uval} << "\n";
+	cout << bitset<64>{uval} << '\n';
 }
