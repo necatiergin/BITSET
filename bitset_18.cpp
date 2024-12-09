@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::bitset;
 
 	bitset<16> bs{ 65535 };
 	cout << bs << '\n';
