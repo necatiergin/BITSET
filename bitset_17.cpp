@@ -8,16 +8,15 @@
 
 int main()
 {
-	using namespace std;
+	auto f = [](std::bitset<16> x, std::bitset<16> y) {return x.to_ulong() < y.to_ulong(); };
+	std::set<std::bitset<16>, decltype(f)> myset;
 
-	auto f = [](bitset<16> x, bitset<16> y) {return x.to_ulong() < y.to_ulong(); };
-	set<bitset<16>, decltype(f)> myset;
+	std::srand(static_cast<unsigned>(std::time(nullptr)));
 
-	srand(static_cast<unsigned>(time(nullptr)));
 	for (int i = 0; i < 10; ++i) {
 		myset.emplace(rand());
 	}
 
 	for (auto bs : myset)
-		cout << bs << '\n';
+		std::cout << bs << '\n';
 }
