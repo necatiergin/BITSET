@@ -1,10 +1,10 @@
-#include <iostream>
+ter#include <iostream>
 #include <bitset>
 
 int main()
 {
 	unsigned long uval;
-	std::cout << "bir tamsayi girin: ";
+	std::cout << "enter an integer: ";
 	std::cin >> uval;
 	std::bitset<32> bs = uval;
 
