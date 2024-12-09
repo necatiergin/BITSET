@@ -5,7 +5,8 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::cin, std::bitset;
+
 	unsigned long uval;
 	cout << "enter an integer: ";
 	cin >> uval;
