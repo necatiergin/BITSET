@@ -7,3 +7,4 @@ int main()
 
 	myset.emplace(345u); //invalid
 	//std::bitset has no relational operators 
+}
