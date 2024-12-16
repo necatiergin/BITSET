@@ -1,4 +1,4 @@
-//std::bitset class has  == and != functions but no relationl operators
+//std::bitset class has  == and != functions but no relational operators
 
 #include <bitset>
 #include <iostream>
