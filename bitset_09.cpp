@@ -3,13 +3,11 @@
 
 int main()
 {
-	using namespace std;
-
 	unsigned long uval;
-	cout << "enter an integer: ";
-	cin >> uval;
+	std::cout << "enter an integer: ";
+	std::cin >> uval;
 
-	bitset<16> bs(uval);
+	std::bitset<16> bs(uval);
 	std::cout << bs << '\n';
 
 	boolalpha(std::cout);
